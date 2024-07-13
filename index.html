@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Smooth Scroll Library -->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+
+    <section id="banner">
+        <div class="logo"> NADI.</div>
+        <div class="banner-text">
+            <h3>Hello, It's Me</h3>
+            <h1>Nadia Malik</h1>
+            <h3 class="intro">And I'm a <span class="green">Frontend Develper</span></h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse, velit nemo necessitatibus ut
+                omnis
+                eaque ratione fugiat.</p>
+                <div  id="icons">
+                    <i class="fab fa fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-tiktok"></i>
+        
+                </div>
+                <button class="hero-btn " type="submit">Download CV</button>
+        </div>
+        <div class="right-img">
+            <img src="image-removebg-preview.png" alt="hero img">
+        </div>
+    </section>
+
+
+
+    <div id="side-nav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#location">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="menu.png" id="menu" alt="">
+    </div>
+    <div class="banner-placeholder"></div>
+
+    <section class="container" id="skills">
+
+        <div class="skill">
+            <h1>MY SKILLS</h1>
+            <li>
+                <h3>HTML</h3>
+                <span class="bar"><span class="html">90%</span></span>
+            </li>
+
+            <li>
+                <h3>CSS</h3>
+                <span class="bar"><span class="css" >70%</span></span>
+            </li>
+
+            <li>
+                <h3>JAVASCRIPT</h3>
+                <span class="bar"><span class="javascript" >60%</span></span>
+            </li>
+
+            <li>
+                <h3>PHP</h3>
+                <span class="bar"><span class="php">65%</span></span>
+            </li>
+
+            <li>
+                <h3>BOOTSTRAP</h3>
+                <span class="bar"><span class="bootstrap">80%</span></span>
+            </li>
+
+
+        </div>
+    </section>
+    <section id="project">
+        <h1>PROJECTS</h1>
+        <div class="portfolio">
+            <div class="portfolio-col">
+                <a href="#lightbox1"><img src="portfolio.png" alt="portfolio img"></a>
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website to showcase your skills and projects.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js</p>
+            </div>
+            <div class="portfolio-col">
+                <a href="#lightbox2"><img src="to do list.png" alt=""></a>
+                <h3>To-Do List App</h3>
+                <p>A simple to-do list application where users can add, edit, and delete tasks.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB</p>
+            </div>
+            <div class="portfolio-col">
+                <a href="#lightbox3"><img src="weather-application-design.jpg" alt=""></a>
+                <h3>Weather App</h3>
+                <p>A weather forecasting app that fetches data from a public API and displays it to the user.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js, API Integration</p>
+            </div>
+            <div class="portfolio-col">
+                <a href="#lightbox4"><img src="ecommerce-website-design.jpg" alt=""></a>
+                <h3>E-commerce Website</h3>
+                <p>An online store with product listings, a shopping cart, and checkout functionality.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB</p>
+            </div>
+            <div class="portfolio-col">
+                <a href="#lightbox5"><img src="Blogging-Platforms-featured-image.png" alt=""></a>
+                <h3>Blog Platform</h3>
+                <p>A content management system where users can create, edit, and delete blog posts.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB</p>
+            </div>
+            <div class="portfolio-col">
+                <a href="#lightbox6"><img src="Best-Chatting-App" alt=""></a>
+                <h3>Chat Application</h3>
+                <p>A real-time chat application with user authentication and different chat rooms.</p> <hr>
+                <p>Technologies: HTML, CSS, JavaScript, React.js, Node.js, Express.js, WebSockets, MongoDB</p>
+            </div>
+        </div>
+    </section>
+    <section id="location" class="location">
+        <h1>CONTACT</h1>
+        <div class="contact-us" class="row">
+
+            <div class="contact-col">
+
+                <form action="response.html" method="post">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="Subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="5" placeholder="Message" required></textarea>
+                    <button class="hero-btn " type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27180.538537751676!2d71.09216992231065!3d31.618313826979268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3925d673afec5a7b%3A0x7fd011dcef7ef5c!2sThal%20University%20Bhakkar!5e0!3m2!1sen!2s!4v1719899072351!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div>
+            <h1>GET IN TOUCH</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed deserunt illum impedit, nisi sequi sint est
+                quibusdam</p>
+        </div>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-tiktok"></i>
+
+        </div>
+        <p class="footer-nam">Made with <i class="far fa-heart" id="heart"></i> by Nadia Malik</p>
+
+    </section>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("side-nav")
+        var menu = document.getElementById("menu")
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+                menu.src = "close.png";
+
+
+            }
+            else {
+                sidenav.style.right = "-250px";
+                menu.src = "menu.png";
+
+            }
+        }
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 3000, 
+            speedAsDuration: true 
+        });
+    });
+
+    
+    </script>
+
+
+
+</body>
+
+</html>
